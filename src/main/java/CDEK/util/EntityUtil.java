@@ -8,7 +8,7 @@ import java.util.List;
 public class EntityUtil {
 
     public static final List<Entity> ENTITIES = Arrays.asList(
-            new Entity(100001, "name1"),
-            new Entity(100002, "name2"),
-            new Entity(100003, "name3"));
+            new Entity(1, "name1"),
+            new Entity(2, "name2"),
+            new Entity(3, "name3"));
 }

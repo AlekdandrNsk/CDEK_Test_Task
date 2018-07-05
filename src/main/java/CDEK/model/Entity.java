@@ -2,21 +2,24 @@ package CDEK.model;
 
 public class Entity {
 
-    private int iD;
+    private int id;
 
     private String name;
 
-    public Entity(int iD, String name) {
-        this.iD = iD;
+    public Entity() {
+    }
+
+    public Entity(int id, String name) {
+        this.id = id;
         this.name = name;
     }
 
-    public int getiD() {
-        return iD;
+    public int getId() {
+        return id;
     }
 
-    public void setiD(int iD) {
-        this.iD = iD;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
