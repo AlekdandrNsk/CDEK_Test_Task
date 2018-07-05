@@ -6,6 +6,11 @@ public class Entity {
 
     private String name;
 
+    public Entity(int iD, String name) {
+        this.iD = iD;
+        this.name = name;
+    }
+
     public int getiD() {
         return iD;
     }
