@@ -1,6 +1,6 @@
-package CDEK.web;
+package cdek.web;
 
-import CDEK.service.TableService;
+import cdek.service.TableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

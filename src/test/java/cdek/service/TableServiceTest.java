@@ -1,7 +1,7 @@
-package CDEK.service;
+package cdek.service;
 
-import CDEK.EntityUtil;
-import CDEK.model.Entity;
+import cdek.EntityUtil;
+import cdek.model.Entity;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

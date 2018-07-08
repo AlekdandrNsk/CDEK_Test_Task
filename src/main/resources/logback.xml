@@ -3,7 +3,7 @@
     <jmxConfigurator/>
 
     <appender name="file" class="ch.qos.logback.core.FileAppender">
-        <file>C:/Projects/CDEK_Test_Task/log/CDEK.log</file>
+        <file>C:/Projects/CDEK_Test_Task/log/cdek.log</file>
 
         <encoder>
             <charset>UTF-8</charset>
@@ -17,7 +17,7 @@
         </encoder>
     </appender>
 
-    <logger name="CDEK" level="debug"/>
+    <logger name="cdek" level="debug"/>
 
     <root level="info">
         <appender-ref ref="file"/>

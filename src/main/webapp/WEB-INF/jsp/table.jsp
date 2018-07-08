@@ -27,7 +27,7 @@
                 </tr>
                 </thead>
                 <c:forEach items="${table}" var="entity">
-                    <jsp:useBean id="entity" scope="page" type="CDEK.model.Entity"/>
+                    <jsp:useBean id="entity" scope="page" type="cdek.model.Entity"/>
                     <tr>
                         <td>${entity.id}</td>
                         <td>${entity.name}</td>

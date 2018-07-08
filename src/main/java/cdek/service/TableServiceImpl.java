@@ -1,7 +1,7 @@
-package CDEK.service;
+package cdek.service;
 
-import CDEK.model.Entity;
-import CDEK.repository.JdbcRepository;
+import cdek.model.Entity;
+import cdek.repository.JdbcRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

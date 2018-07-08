@@ -1,4 +1,4 @@
-package CDEK.web;
+package cdek.web;
 
 import org.junit.Before;
 import org.junit.Test;

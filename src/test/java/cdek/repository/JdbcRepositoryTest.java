@@ -1,7 +1,7 @@
-package CDEK.repository;
+package cdek.repository;
 
-import CDEK.EntityUtil;
-import CDEK.model.Entity;
+import cdek.EntityUtil;
+import cdek.model.Entity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package CDEK.model;
+package cdek.model;
 
 public class Entity {
 

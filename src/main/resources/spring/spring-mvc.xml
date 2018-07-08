@@ -7,7 +7,7 @@
 
     <mvc:annotation-driven/>
 
-    <context:component-scan base-package="CDEK.web"/>
+    <context:component-scan base-package="cdek.web"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:prefix="/WEB-INF/jsp/"

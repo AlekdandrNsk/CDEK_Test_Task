@@ -1,6 +1,6 @@
-package CDEK.service;
+package cdek.service;
 
-import CDEK.model.Entity;
+import cdek.model.Entity;
 
 import java.util.List;
 

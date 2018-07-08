@@ -1,6 +1,6 @@
-package CDEK.repository;
+package cdek.repository;
 
-import CDEK.model.Entity;
+import cdek.model.Entity;
 
 import java.util.List;
 
