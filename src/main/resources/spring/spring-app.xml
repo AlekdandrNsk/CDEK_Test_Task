@@ -27,6 +27,11 @@
         <constructor-arg ref="dataSource"/>
     </bean>
 
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
     <cache:annotation-driven cache-manager="ehCacheManager"/>
 
     <bean id="ehCacheManager" class="org.springframework.cache.jcache.JCacheCacheManager">
