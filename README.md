@@ -1,16 +1,16 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/42d8de1b028b4a00bca36e27df5049d7)](https://www.codacy.com/app/AlekdandrNsk/CDEK_Test_Task?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlekdandrNsk/CDEK_Test_Task&amp;utm_campaign=Badge_Grade)
 
-####БД создается и заполняется при запуске программы
+БД создается и заполняется при запуске программы
 
-####параметры доступа к БД описаны в 
+параметры доступа к БД описаны в 
 
-#####\src\main\resources\db\mysql.properties:
+\src\main\resources\db\mysql.properties:
 
-#####database.url=jdbc:mysql://localhost:3306/test
+database.url=jdbc:mysql://localhost:3306/test
 
-#####database.username=root
+database.username=root
 
-#####database.password=root
+database.password=root
 
 
 
